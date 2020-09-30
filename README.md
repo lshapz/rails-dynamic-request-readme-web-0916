@@ -10,7 +10,7 @@ get 'about', to: "static#about"
 
 This is mapped to the `static` controller and its `about` action, which renders the `about.html.erb` view template.
 
-## Dynamic Requests
+## Dynamic Request
 
 If you are comfortable with static requests, you will pick up on dynamic requests quickly. According to REST, if we want to retrieve the post with an id of `42`, we should navigate to `/posts/42`. It's technically possible to create a new line in your routes file for each post... but that would quickly get ridiculous. You would have to modify your web server every time someone posts! Enter: dynamic routes. A breakdown of the dynamic route process flow is below:
 
